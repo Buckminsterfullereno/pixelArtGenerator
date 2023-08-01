@@ -1,0 +1,15 @@
+bug list
+
+spelling errors between the .html and .js files.
+
+I have made that mistake before. I mispelled height and width
+
+Also, made the mistake of using camel notation on the values for mouse inside the events object. The entire string 
+should be lowercase.
+
+let events = {
+	mouse: {
+		down: "mouseDown",
+		move: "mouseMove",
+		up: "mouseUp",
+	},
